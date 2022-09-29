@@ -15,9 +15,7 @@ int  dif =  current - previous;
 if (dif <0){
     dif = dif* -1;
 }
-//if (diffs_found [dif] ){
-    //printf("Not a jolly jumper \n"); 
-//return 0;}
+
 diffs_found [dif]=true;
 
 
