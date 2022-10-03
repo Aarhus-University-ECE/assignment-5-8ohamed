@@ -24,7 +24,7 @@ int main(void) {
 
 
 	/*readin the n numbers in the array numbers*/
-// I decided to make some testcases instead of input
+// I decided to make some testcases instead of input(I was told that I am allowed to)
 	int seq1[] = {1,4,2,3};
 	isJollyJumber(seq1,4);
     int seq2 []= {3,4,2,5,1};

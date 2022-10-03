@@ -1,3 +1,4 @@
+#include <stdbool.h>
 
 #pragma once
 typedef struct point {
@@ -13,5 +14,5 @@ point p;
 
 }circle;
 void fiveCircles(circle c[]);
-int circleIsValid(const circle* c);
-void translate(circle* c, const point* p);
+int circleIsValid(const circle *c);
+void translate(circle* c, const point* p);	
